@@ -217,11 +217,11 @@
         },
         "pytest": {
             "hashes": [
-                "sha256:13c1c9b22127a77fc684eee24791efafcef343335d855e3573791c68588fe1a5",
-                "sha256:d8ba7be9466f55ef96ba203fc0f90d0cf212f2f927e69186e1353e30bc7f62e5"
+                "sha256:7e4800063ccfc306a53c461442526c5571e1462f61583506ce97e4da6a1d88c8",
+                "sha256:ca563435f4941d0cb34767301c27bc65c510cb82e90b9ecf9cb52dc2c63caaa0"
             ],
             "index": "pypi",
-            "version": "==5.2.0"
+            "version": "==5.2.1"
         },
         "requests": {
             "hashes": [
@@ -253,10 +253,10 @@
         },
         "tomlkit": {
             "hashes": [
-                "sha256:a8d806f3a453c2d292afe97918398354e405b93919e2e68771a3fd0a90e89576",
-                "sha256:c6b0c11b85e888c12330c7605d43c1446aa148cd421163f90ca46ea813f2c336"
+                "sha256:6c1c8af5d98468e9d2b07db2060ae2bc6fe204bda7f32f46a6255b50fe78a71c",
+                "sha256:c4e657ec7a92aedc05202c068099ca530100aacb7dfadd100f2e8e5fd40302a1"
             ],
-            "version": "==0.5.5"
+            "version": "==0.5.7"
         },
         "urllib3": {
             "hashes": [
