@@ -18,11 +18,11 @@
     "default": {
         "attrs": {
             "hashes": [
-                "sha256:ec20e7a4825331c1b5ebf261d111e16fa9612c1f7a5e1f884f12bd53a664dfd2",
-                "sha256:f913492e1663d3c36f502e5e9ba6cd13cf19d7fab50aa13239e420fef95e1396"
+                "sha256:08a96c641c3a74e44eb59afb61a24f2cb9f4d7188748e76ba4bb5edfa3cb7d1c",
+                "sha256:f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72"
             ],
             "index": "pypi",
-            "version": "==19.2.0"
+            "version": "==19.3.0"
         }
     },
     "develop": {
@@ -42,11 +42,11 @@
         },
         "attrs": {
             "hashes": [
-                "sha256:ec20e7a4825331c1b5ebf261d111e16fa9612c1f7a5e1f884f12bd53a664dfd2",
-                "sha256:f913492e1663d3c36f502e5e9ba6cd13cf19d7fab50aa13239e420fef95e1396"
+                "sha256:08a96c641c3a74e44eb59afb61a24f2cb9f4d7188748e76ba4bb5edfa3cb7d1c",
+                "sha256:f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72"
             ],
             "index": "pypi",
-            "version": "==19.2.0"
+            "version": "==19.3.0"
         },
         "black": {
             "hashes": [
@@ -253,10 +253,10 @@
         },
         "tomlkit": {
             "hashes": [
-                "sha256:6c1c8af5d98468e9d2b07db2060ae2bc6fe204bda7f32f46a6255b50fe78a71c",
-                "sha256:c4e657ec7a92aedc05202c068099ca530100aacb7dfadd100f2e8e5fd40302a1"
+                "sha256:32c10cc16ded7e4101c79f269910658cc2a0be5913f1252121c3cd603051c269",
+                "sha256:96e6369288571799a3052c1ef93b9de440e1ab751aa045f435b55e9d3bcd0690"
             ],
-            "version": "==0.5.7"
+            "version": "==0.5.8"
         },
         "urllib3": {
             "hashes": [
