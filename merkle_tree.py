@@ -10,12 +10,12 @@ class BinaryMerkleTree:
 
     @data.validator
     def sortable(self, attribute, value):
-        cls = value.__class__
-        if cls.__lt__ == object.__lt__ and cls.__gt__ == object.__gt__:
+        vcls = value.__class__
+        if vcls.__lt__ == object.__lt__ and vcls.__gt__ == object.__gt__:
             raise ValueError("Need comparable object for data")
 
     @_hash.default
-    def calculate_hash(self):
+    def calculate_hash(self) -> int:
         h = hash(self.data)
         if self._left:
             h += self._left.calculate_hash()
@@ -23,12 +23,13 @@ class BinaryMerkleTree:
             h += self._right.calculate_hash()
         return h
 
-    def get_hash(self):
+    def get_hash(self) -> int:
         return self._hash
 
     def insert(self, data):
         if not isinstance(self.data, data.__class__):
             raise ValueError("Type of data must be the same")
+
         if data < self.data:
             if self._left:
                 self._left.insert(data)
