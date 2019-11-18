@@ -6,7 +6,7 @@ class BinaryMerkleTree:
     data = attr.ib(default=None)
     _left = attr.ib(default=None, init=False)
     _right = attr.ib(default=None, init=False)
-    _hash = attr.ib(init=False)
+    _hash: int = attr.ib(init=False)
 
     @data.validator
     def sortable(self, attribute, value):
